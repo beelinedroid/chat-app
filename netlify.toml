@@ -1,0 +1,8 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/messages"
+  to = "/.netlify/functions/messages"
+  status = 200
